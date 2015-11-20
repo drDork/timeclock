@@ -1,9 +1,162 @@
-var employeeData = [{
-	"emplyoyeeId": 1, 
-	"timeIn": 1447819048398,
-	"timeOut": 1447855338441, 
-	"totalTime": 
-
-	}, {}, {}];
-
-
+[
+  	{
+	"firstName": "Ryan", 
+	"lastName": "Graham", 
+	"id": 1,
+	"timeLog": [
+		{
+			"date": "Nov 19 2015", 
+			"clockIn": 1447819048398,  
+			"clockOut": 1447855338441 
+		}, 
+		{
+			"date": "Nov 18 2015", 
+			"clockIn": 1447819048398, 
+			"clockOut": 1447855338441
+		},
+		{
+			"date": "Nov 17 2015", 
+			"clockIn": 1447819048398, 
+			"clockOut": 1447855338441  
+		},
+		{
+			"date": "Nov 16 2015", 
+			"clockIn": 1447819048398, 
+			"clockOut": 1447855338441 
+		},
+		{
+			"date": "Nov 15 2015", 
+			"clockIn": 1447819048398,
+			"clockOut": 1447855338441
+		}
+		]
+	},
+	{
+	"firstName": "Bob", 
+	"lastName": "Barker", 
+	"id": 2,
+	"timeLog": [
+		{
+			"date": "Nov 19 2015", 
+			"clockIn": 1447819048398, 
+			"clockOut": 1447855338441 
+		}, 
+		{
+			"date": "Nov 18 2015", 
+			"clockIn": 1447819048398, 
+			"clockOut": 1447855338441
+		},
+		{
+			"date": "Nov 17 2015", 
+			"clockIn": 1447819048398, 
+			"clockOut": 1447855338441  
+		},
+		{
+			"date": "Nov 16 2015", 
+			"clockIn": 1447819048398, 
+			"clockOut": 1447855338441 
+		},
+		{
+			"date": "Nov 15 2015", 
+			"clockIn": 1447819048398,
+			"clockOut": 1447855338441
+		}
+		]
+	},
+	{
+	"firstName": "Minny", 
+	"lastName": "Driver", 
+	"id": 3,
+	"timeLog": [
+		{
+			"date": "Nov 19 2015", 
+			"clockIn": 1447819048398,  
+			"clockOut": 1447855338441 
+		}, 
+		{
+			"date": "Nov 18 2015", 
+			"clockIn": 1447819048398, 
+			"clockOut": 1447855338441
+		},
+		{
+			"date": "Nov 17 2015", 
+			"clockIn": 1447819048398, 
+			"clockOut": 1447855338441  
+		},
+		{
+			"date": "Nov 16 2015", 
+			"clockIn": 1447819048398, 
+			"clockOut": 1447855338441 
+		},
+		{
+			"date": "Nov 15 2015", 
+			"clockIn": 1447819048398,
+			"clockOut": 1447855338441
+		}
+		]
+	},
+	{
+	"firstName": "Dolly", 
+	"lastName": "Parm", 
+	"id": 4,
+	"timeLog": [
+		{
+			"date": "Nov 19 2015", 
+			"clockIn": 1447819048398, 
+			"clockOut": 1447855338441 
+		}, 
+		{
+			"date": "Nov 18 2015", 
+			"clockIn": 1447819048398, 
+			"clockOut": 1447855338441
+		},
+		{
+			"date": "Nov 17 2015", 
+			"clockIn": 1447819048398, 
+			"clockOut": 1447855338441  
+		},
+		{
+			"date": "Nov 16 2015", 
+			"clockIn": 1447819048398, 
+			"clockOut": 1447855338441 
+		},
+		{
+			"date": "Nov 15 2015", 
+			"clockIn": 1447819048398,
+			"clockOut": 1447855338441
+		}
+		]
+	},
+	{
+	"firstName": "Duke", 
+	"lastName": "Nukum", 
+	"id": 5,
+	"timeLog": [
+		{
+			"date": "Nov 19 2015", 
+			"clockIn": 1447819048398,  
+			"clockOut": 1447855338441 
+		}, 
+		{
+			"date": "Nov 18 2015", 
+			"clockIn": 1447819048398, 
+			"clockOut": 1447855338441
+		},
+		{
+			"date": "Nov 17 2015", 
+			"clockIn": 1447819048398, 
+			"clockOut": 1447855338441  
+		},
+		{
+			"date": "Nov 16 2015", 
+			"clockIn": 1447819048398, 
+			"clockOut": 1447855338441 
+		},
+		{
+			"date": "Nov 15 2015", 
+			"clockIn": 1447819048398,
+			"clockOut": 1447855338441
+		}
+		]
+	}
+]
