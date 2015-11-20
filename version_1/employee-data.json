@@ -1,0 +1,9 @@
+var employeeData = [{
+	"emplyoyeeId": 1, 
+	"timeIn": 1447819048398,
+	"timeOut": 1447855338441, 
+	"totalTime": 
+
+	}, {}, {}];
+
+

@@ -1,0 +1,24 @@
+<!DOCTYPE html> 
+<html ng-app="timeClockApp"> 
+<head> 
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Time Clock</title>
+</head> 
+
+<body ng-controller="ClockController">
+	<div class="mainRapper">
+
+		<div ng-repeat="employee in employeeData">
+			<h3>{{employee.firstName + " " + employee.lastName}}</h3> 
+			<p ng-repeat="hours in employee.timeLog">{{hours.clockOut - hours.clockIn}} ms on {{hours.date}}</p>
+		</div> 
+
+
+	</div> 
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular.min.js"></script> 
+	<script src="js/app.js"></script> 
+	<script src="js/controller.js"></script> 
+	<script src="js/service.js"></script>  
+</body> 
+</html> 
