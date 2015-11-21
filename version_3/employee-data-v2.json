@@ -1,0 +1,97 @@
+{
+	"users": {
+				"user1": {
+					"id": 101859383081697439770,
+					"name": "Ryan Graham", 
+					"timeLog": [
+									{
+										"date": "Nov 19 2015", 
+										"clockIn": 1447819048398,  
+										"clockOut": 1447855338441 
+									}, 
+									{
+										"date": "Nov 18 2015", 
+										"clockIn": 1447819048398, 
+										"clockOut": 1447855338441
+									},
+									{
+										"date": "Nov 17 2015", 
+										"clockIn": 1447819048398, 
+										"clockOut": 1447855338441  
+									},
+									{
+										"date": "Nov 16 2015", 
+										"clockIn": 1447819048398, 
+										"clockOut": 1447855338441 
+									},
+									{
+										"date": "Nov 15 2015", 
+										"clockIn": 1447819048398,
+										"clockOut": 1447855338441
+									}
+								]
+					},
+				"user2": {
+					"id": 2,
+					"name": "Marty Bilson", 
+					"timeLog": [
+									{
+										"date": "Nov 19 2015", 
+										"clockIn": 1447819048398,  
+										"clockOut": 1447855338441 
+									}, 
+									{
+										"date": "Nov 18 2015", 
+										"clockIn": 1447819048398, 
+										"clockOut": 1447855338441
+									},
+									{
+										"date": "Nov 17 2015", 
+										"clockIn": 1447819048398, 
+										"clockOut": 1447855338441  
+									},
+									{
+										"date": "Nov 16 2015", 
+										"clockIn": 1447819048398, 
+										"clockOut": 1447855338441 
+									},
+									{
+										"date": "Nov 15 2015", 
+										"clockIn": 1447819048398,
+										"clockOut": 1447855338441
+									}
+								]
+					},
+				"user3": {
+					"id": 3, 
+					"name": "Two Chainz", 
+					"timeLog": [
+									{
+										"date": "Nov 19 2015", 
+										"clockIn": 1447819048398,  
+										"clockOut": 1447855338441 
+									}, 
+									{
+										"date": "Nov 18 2015", 
+										"clockIn": 1447819048398, 
+										"clockOut": 1447855338441
+									},
+									{
+										"date": "Nov 17 2015", 
+										"clockIn": 1447819048398, 
+										"clockOut": 1447855338441  
+									},
+									{
+										"date": "Nov 16 2015", 
+										"clockIn": 1447819048398, 
+										"clockOut": 1447855338441 
+									},
+									{
+										"date": "Nov 15 2015", 
+										"clockIn": 1447819048398,
+										"clockOut": 1447855338441
+									}
+								]
+				}	
+	}
+}
