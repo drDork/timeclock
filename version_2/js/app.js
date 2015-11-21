@@ -1,1 +1,1 @@
-var app = angular.module('timeClockApp', []);
+var app = angular.module('timeClockApp', ['firebase']);
