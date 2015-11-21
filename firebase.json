@@ -1,0 +1,9 @@
+{
+  "firebase": "time-clock-v1",
+  "public": "version_3",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

@@ -18,7 +18,8 @@ app.controller('ClockController', function($scope, timeService, $firebaseObject,
 
 	ref.onAuth(function(authData) {
 		if (authData) {
-			$scope.googleData = authData.google.profileImageURL; 
+			$scope.googleDataImg = authData.google.profileImageURL;
+			$scope.googleDataName = authData.google.displayName; 
 			console.log("Authenticated with uid:", authData.uid);
 		} else {
 			console.log("Client unauthenticated.")

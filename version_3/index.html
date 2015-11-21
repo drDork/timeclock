@@ -5,15 +5,20 @@
 	<title>Time Clock</title>
 </head> 
 
-<body ng-controller="ClockController">
+<body ng-controller="ClockController" ng-cloak>
 	<div class="mainRapper">
-		<div><img class="profileImg" src="{{googleData}}"/></div> 
 
+		<div class="imgContainer"><img class="profileImg" src="{{googleDataImg}}"/></div> 
+		<div class="displayName">{{googleDataName}}</div> 
+		<div>{{data}}</div> 
+
+
+<!--
 		<div ng-repeat="employee in data">
 			<h3>{{employee.firstName + " " + employee.lastName}}</h3> 
 			<p ng-repeat="hours in employee.timeLog">{{hours.clockOut - hours.clockIn}} ms on {{hours.date}}</p>
 		</div> 
-
+-->
 
 	</div> 
 
@@ -30,3 +35,6 @@
 	<script src="js/service.js"></script>  
 </body> 
 </html> 
+
+
+

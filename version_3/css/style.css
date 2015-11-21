@@ -12,7 +12,22 @@ body{
 	border-radius: 5px;
 }
 
+.imgContainer{
+	width: 100%;
+	margin-top: 20px;
+}
+
 .profileImg{
 	width: 60px; 
 	border-radius: 50%; 
+	display: block;
+	margin: 0 auto;	
+}
+
+.displayName{
+	font-size: 1.5em; 
+	font-weight: bold; 
+	width: 100%; 
+	text-align: center; 
+	margin: 20px 0; 
 }
