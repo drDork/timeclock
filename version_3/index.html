@@ -8,45 +8,64 @@
 <body ng-controller="ClockController" ng-cloak>
 	<div class="mainRapper">
 
-		<div class="imgContainer"><img class="profileImg" src="{{googleDataImg}}"/></div> 
+		<div class="imgContainer"><img class="profileImg" ng-src="{{googleDataImg}}"/></div> 
 		<div class="displayName">{{googleDataName}}</div> 
 
 
 
-		<button class="inButton" type="submit">Clock In</button>
+		
 
 
 		<div class="liveTime">
-			<h1>The current time is</h1> 
+			<div class="timeHead">Current Date &amp; Time</div> 
+			<div class="currentTime"><script type="text/javascript">
+			document.write ('<span id="date-time">', new Date().toLocaleString(), '<\/span>')
+			if (document.getElementById) onload = function () {
+				setInterval ("document.getElementById ('date-time').firstChild.data = new Date().toLocaleString()", 50)
+			}
+		</script></div> 
 
 
-		</div> 
-		 
+	</div> 
 
-<!-- 
-		<div>{{data}}</div> 
---> 
+
+	<button class="inButton" type="submit">Clock In</button>
+
+
+
+
+
+
+	<div class="pastDaysRapper">
+
+
+		<div class="title">HISTORY</div> 
+
+
+		<div class="pastDays" ng-repeat='time in data.users[googleDataName].timeLog'>{{time.date | date: 'mediumDate'}} | {{(time.clockOut - time.clockIn) / (60 * 60 * 1000)}} Hrs</div> 
+	</div> 
+
 
 <!--
 		<div ng-repeat="employee in data">
 			<h3>{{employee.firstName + " " + employee.lastName}}</h3> 
 			<p ng-repeat="hours in employee.timeLog">{{hours.clockOut - hours.clockIn}} ms on {{hours.date}}</p>
 		</div> 
--->
+	-->
 
-	</div> 
+</div> 
 
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular.min.js"></script> 
 
-	<!-- Firebase -->
-	<script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
-	<!-- AngularFire -->
-	<script src="https://cdn.firebase.com/libs/angularfire/1.1.3/angularfire.min.js"></script>
+<!-- Firebase -->
+<script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+<!-- AngularFire -->
+<script src="https://cdn.firebase.com/libs/angularfire/1.1.3/angularfire.min.js"></script>
 
 
-	<script src="js/app.js"></script> 
-	<script src="js/controller.js"></script> 
-	<script src="js/service.js"></script>  
+<script src="js/app.js"></script> 
+<script src="js/controller.js"></script> 
+<script src="js/service.js"></script>  
 </body> 
 </html> 
 

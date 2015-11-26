@@ -1,3 +1,8 @@
+
+
+
+
+
 body{
 	background: #1f3c39;  /* old #2D534F */
 	font-family: Helvetica, Arial, sans-serif; 
@@ -35,7 +40,7 @@ body{
 .inButton{
 	display: block;
 	margin: 0 auto;
-	width: 100%;
+	width: 250px;
 	padding: 15px 0; 
 	background: #0E9E82;
 	border-radius: 5px; 
@@ -49,5 +54,42 @@ body{
 
 .liveTime{
 	width: 100%; 
-	margin: 25px 0;
+	text-align: center; 
+	margin: 40px 0;
+	font-size: 1em;
+	font-weight: 200;
 }
+
+.timeHead{
+	color: black;
+}
+
+.currentTime{
+	margin-top: 8px;
+	color: red;
+}
+
+.pastDaysRapper{
+	margin-top: 80px;
+}
+
+.pastDays{
+	text-align: center;
+	margin: 20px; 
+}
+
+.title{
+	text-align: center;
+	font-weight: bold;
+}
+
+@media (min-width: 700px){
+
+.mainRapper{
+	width: 40%; 
+}
+
+
+}
+
+

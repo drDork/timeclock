@@ -6,6 +6,8 @@ app.controller('ClockController', function($scope, timeService, $firebaseObject,
 
 	$scope.data = $firebaseObject(ref);
 
+	$scope.time = new Date().toLocaleString();
+
 
 
 	ref.authWithOAuthPopup("google", function(error, authData) {
