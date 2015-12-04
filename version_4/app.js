@@ -1,4 +1,4 @@
-angular.module('rtfmApp', ['ngRoute', 'firebase'])
+angular.module('timeClockApp', ['ngRoute', 'firebase'])
 .constant('fb', {
   url: 'https://time-clock-v1.firebaseio.com/'
 })

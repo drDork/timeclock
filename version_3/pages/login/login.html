@@ -1,0 +1,15 @@
+<div class="mainRapper" ng-controller="loginPageController">
+
+	<div class="liveTime">
+		<div class="timeHead">Current Date &amp; Time</div> 
+		<div class="currentTime"><script type="text/javascript">
+		document.write ('<span id="date-time">', new Date().toLcaleString(), '<\/span>')
+		if (document.getElementById) onload = function () {
+			setInterval ("document.getElementById ('date-time')firstChild.data = new Date().toLocaleString()", 50)
+		}
+	</script></div> 
+
+	<button class="inButton" ng-click="loginWithGoogle()">Login with Google</button>
+
+
+</div> 
