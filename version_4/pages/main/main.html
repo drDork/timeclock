@@ -5,10 +5,16 @@
 	<div class="displayName">{{user.name}}</div> 
 
 
-
-
-
-
-
 <button class="inButton" ng-click="logout()">Logout</button>
+
+	<div class="pastDaysRapper">
+
+
+		<div class="title">HISTORY</div> 
+
+
+		<div class="pastDays" ng-repeat='time in data.users[user.name].timeLog'>{{time.clockIn | date: 'mediumDate'}} | {{(time.clockOut - time.clockIn) / (60 * 60 * 1000)}} Hrs</div> 
+	</div> 
+
+
 </div> 
